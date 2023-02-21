@@ -25,6 +25,7 @@ class Contacts extends Component {
       [name]: value,
     });
   };
+
   addContacts = ({ name, number }) => {
     if (this.alreadyAdded({ name })) {
       alert(`${name} is already added`);

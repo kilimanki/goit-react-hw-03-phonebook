@@ -16,7 +16,10 @@ class Form extends Component {
     this.reset();
   };
   reset = () => {
-    this.setState(this.state);
+    this.setState({
+      name: '',
+      number: '',
+    });
   };
 
   render() {
